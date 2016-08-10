@@ -14,7 +14,7 @@ This folder includes the following files:
 
    -- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-2. The new dataset is stored in the file: final.csv
+2. The new dataset is stored in the file: final.txt
 
 3. a codebook is included to explain different variables.
 
