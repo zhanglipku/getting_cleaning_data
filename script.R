@@ -45,6 +45,6 @@ colnames(selected)<-gsub("-","_", names(selected)) #replace dashes with undersco
 final<-selected%>%group_by(subject_ID, activity_ID)%>%summarize_each(funs(mean))  #grouping the dataset first by subject_
 
 #write the new dataset to a local
-write.csv(final, "final.csv")
+write.table(final, "final.txt", row.name=FALSE)
 
  
